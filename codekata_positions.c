@@ -1,6 +1,8 @@
 #include<stdio.h>
+
+
 main(){
-	int i,n;
+	int i,n,j;
 	int arr[100000];
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
