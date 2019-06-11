@@ -1,6 +1,6 @@
 #include<stdio.h>
 main(){
-	int res[200];
+	int res[100000];
 	int n,r,i,j,ind,temp,sum=0;
 	
 	scanf("%d",&n);
