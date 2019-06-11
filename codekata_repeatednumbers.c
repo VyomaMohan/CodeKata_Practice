@@ -3,7 +3,7 @@
 //repeated numbers in sorted order
 
 main(){
-	int n,i,j,itr,count,temp;
+	int n,i,j,itr,count,temp,flag=0;
 	int arr[100000];
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
@@ -26,6 +26,7 @@ main(){
 	itr=0;
 	while(itr<n){
 		if(arr[itr]==arr[itr+1]&&itr+1<n){
+			flag=1;
 			printf("%d ",arr[itr]);
 			count=0;
 			for(j=itr+1;j<n;j++){
@@ -38,4 +39,8 @@ main(){
 		}
 		itr=itr+1;
 	}
+	
+	if(flag==0)
+		printf("unique");
+	
 }
