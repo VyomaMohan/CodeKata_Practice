@@ -7,7 +7,8 @@ main(){
 	limit=high-low+1;
 	
 	//if(low==1)
-	//arr[0]=1;
+	arr[0]=1;
+	arr[1]=1;
 	
 	for(i=2;i<=high;i++){
 		num=i;
