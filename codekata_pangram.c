@@ -5,7 +5,7 @@ main(){
 	char ch;
 	int flag=0;
 	int i,len;
-	scanf("%s",str);
+	scanf("%[^\n]",str);
 	for(len=0;str[len];len++);
 	for(i=0;i<len;i++){
 		if((str[i]>=97&&str[i]<=122)||(str[i]>=65&&str[i]<=90)){
